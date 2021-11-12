@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+
+    .container__box {
+
+        .container__groupText {
+            text-align: center;
+            margin: 20px 0px;
+        }
+
+        .container__details {
+            display: flex;
+
+            .container__policies {
+                border: 1px;
+                border-color: gray;
+                border-style: solid;
+                border-radius: 10px;
+                width: 400px;
+                padding: 10px 0px;
+                margin: 10px;
+
+                .container__polText {
+                    text-align: center;
+                    font-size: 30px;
+                    font-weight: 500;
+                    padding: 10px 0px;
+                }
+            }
+
+            .container__members {
+                border: 1px;
+                border-color: gray;
+                border-style: solid;
+                border-radius: 10px;
+                width: 400px;
+                padding: 10px 0px;
+                margin: 10px;
+
+                .container__memText {
+                    text-align: center;
+                    font-size: 30px;
+                    font-weight: 500;
+                    padding: 10px 0px;
+                }
+            }
+        }
+    }
+}

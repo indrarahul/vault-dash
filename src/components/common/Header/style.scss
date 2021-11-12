@@ -1,0 +1,25 @@
+.header__container {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+
+    .header__nav {
+        display: flex;
+        max-width: fit-content;
+        justify-content: center;
+        align-items: center;
+
+        .header__text {
+            margin: 0px 35px;
+            font-size: 20px;
+            color: rgb(158, 158, 158);
+            text-decoration: none;
+            font-weight: 600;
+
+            &:hover{
+                color: white
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.mainContainer {
+
+    .mainContainer__headerContainer{
+        position: sticky;
+        top: 0;
+    }
+
+    .mainContainer__container {
+        display: flex;
+        
+
+        .mainContainer__entityListContainer {
+            padding: 20px 40px;
+            flex: 1 0;
+            
+            .mainContainer__entityNames {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 300;
+                font-size: 25px;
+                margin-bottom: 10px;
+                max-width: fit-content;
+                padding: 10px 20px;
+                border:1px;
+
+                &:hover{
+                    // background-color: red;
+                    padding: 9px 19px;
+                    border-radius: 10px;
+                    border:1px;
+                    border-style: solid;
+                    border-color: gray;
+                    transition: ease-out;
+                    transition-duration: 600;
+                }
+
+                &:active{
+                    background-color: rgb(204, 204, 204);
+                    transition: ease-out;
+                    transition-duration: 600;
+                }
+            }
+        }
+
+        .mainContainer__entityDetailsContainer {
+            // background-color: chartreuse;
+            display: flex;
+            flex: 5 0;
+            justify-content: center;
+            padding: 50px;
+        }
+    }
+}
